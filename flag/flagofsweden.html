@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Flag of Sweden</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .flag {
+      background-color: #1788c9;
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
+
+    .flag::before {
+      background-color: #fdcd0e;
+      content: "";
+      height: 15%;
+      left: 0;
+      margin-top: -5%;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+    }
+
+    .flag::after {
+      background-color: #fdcd0e;
+      content: "";
+      height: 100%;
+      left: 30%;
+      margin-left: -10%;
+      position: absolute;
+      top: 0;
+      width: 9%;
+    }
+
+    .flag {
+      text-align: center;
+      font-size: 2rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white; /* Text color */
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <p>The Flag of Sweden</p>
+  </div>
+</body>
+
+</html>

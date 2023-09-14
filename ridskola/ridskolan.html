@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fryele Stallklubb</title>
+    <style>
+        /* Reset some default styles to ensure consistent rendering */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+        
+
+        /* Define a container for your website content using flexbox */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Make the container take up the full viewport height */
+        }
+
+        /* Style for the header */
+        header {
+            background-color: #411b12;
+            color: #fff;
+            padding: 1rem;
+            text-align: left;
+        }
+        .menu{
+            display: flex;
+            flex-flow: row;
+            text-align: left;
+            gap: 1rem;
+            background-color: #411b12;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        a {
+            text-decoration: none;
+          color: white;
+          display: flex;
+          text-align: left;
+          padding-left: 50%;
+        }
+
+        /* Style for the main content area */
+        .content {
+            max-width: 800px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        /* Style for the footer */
+        footer {
+            background-color: #411b12;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem;
+        }
+
+        /* Style for the image gallery */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 5px; /* Adjust the gap between images as needed */
+            padding: 20px;
+        }
+
+        /* Style for each image in the gallery */
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #dddd;
+           
+        }
+        button{
+            margin-bottom: 5px;
+            margin-top: 5px;
+            display: inline-block;
+            outline: 0;
+            border: 0;
+            cursor: pointer;
+            color: #fff;
+            font-weight: 500;
+            border-radius: 4px;
+            font-size: 14px;
+            height: 30px;
+            padding: 0px 15px;
+            background-color: #411b12;   
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fryele Stallklubb</h1>
+    </header>
+    <div class="container">
+        <div class="menu">
+            <!-- Navigation menu -->
+            <div class="Hem"><a href="projekt1.html">Hem</a></div>
+            <div class="Ridskola"><a href="/ridskola/ridskolan.html">Ridskola</a></div>
+            <div class="Kontakt"><a href="/ridskola/kontakt.html">Kontakt</a></div>
+        </div>
+        <div class="content">
+            <h2>Ridskola</h2>
+            <button>Personal</button>
+            <button>Anmäl dig till ridskolan</button>
+            
+            <p>Nedan är en samling av våra hästar samt några av vår personal!</p>
+            
+        </div>
+        <div class="image-gallery">
+            <div>
+                <img src="/ridskola/images/häst1.png" alt="häst 1">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst2.png" alt="häst 2">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst3.png" alt="häst 3">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst4.png" alt="häst 4">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst5.png" alt="häst 5">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst6.png" alt="häst 6">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst7.png" alt="häst 7">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst8.png" alt="häst 8">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst9.png" alt="häst 9">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst10.png" alt="häst 10">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst11.png" alt="häst 11">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst12.png" alt="häst 12">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst13.png" alt="häst 13">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst14.png" alt="häst 14">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst15.png" alt="häst 15">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst16.png" alt="häst 16 föl">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst17.png" alt="häst 17">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst18.png" alt="häst 18">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst19.png" alt="häst 19">
+            </div>
+            <div>
+                <img src="/ridskola/images/häst20.png" alt="häst 20">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Fryele Stallklubb</p>
+    </footer>
+</body>
+</html>
