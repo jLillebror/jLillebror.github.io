@@ -3,83 +3,60 @@
 <html lang="en"> 
 
 <head>
-  <meta charset="UTF-8" /> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Viewport settings for responsive design -->
-  <title>Johan Åberg CV</title> <!-- Title of the webpage -->
-  <link rel="stylesheet" href="style.css" /> <!-- Link to an external CSS stylesheet -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Johan Åberg CV</title> <!-- title of the webpage -->
+  <link rel="stylesheet" href="style.css"> <!-- link to external CSS stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- link to font-awesome icons -->
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap'); /*<!-- Importing Google Fonts -->*/
-    
-    #thumbnail1, #thumbnail2 {
-    display:flex ;
-    justify-content: center;
-    border: 1px solid #ddd; /* Gray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 30%; /* Set a small width */
-    
-}
-/* adds a hover effect (black) */
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
-}
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap'); /*<!-- fetching google fonts -->*/
 </style>
-<body>
-
-</body>
-  </style>
-  
 </head>
 
 <body>
   <div class="menu">
-    <!-- Navigation menu -->
-    <div class="background"><a href="#background">background</a></div> <!-- Link to the 'background' section -->
-    <div class="work"> <a href="work"><a href="#work">work</a></a></div> <!-- Link to the 'work' section -->
-    <div class="contact"><a href="#contact">contact me</a></div> <!-- Link to the 'contact me' section -->
-    <div class="top"><a href="#top">top</a></div> <!-- Link to the top of the page -->
+    <!-- navigation menu -->
+    <div class="background"><a href="#background">background</a></div> <!-- link to the 'background' section -->
+    <div class="work"> <a href="#work">work</a></div> <!-- link to the 'work' section -->
+    <div class="contact"><a href="#contact">contact me</a></div> <!-- link to the 'contact me' section -->
+    <div class="top"><a href="#top">top</a></div> <!-- link to the top of the page -->
   </div>
-  <hr /> <!-- Horizontal line -->
-
-  <h1 id="mainheading">Johan Åberg</h1> <!-- Main heading -->
-  <h2>Webbutvecklare .NET</h2> <!-- Subheading -->
-  <img id="portrait" width="25%" src="./images/johan åberg.jpg" alt="portrait" /> <!-- Image with an ID and alternative text -->
-
+  <h1 id="mainheading">Johan Åberg</h1> <!-- main heading -->
+  <h2>Webbutvecklare .NET</h2> <!-- subheading -->
+  <img id="portrait" width="25%" src="./images/johan åberg.jpg" alt="portrait">
   <div id="background">
-    <!-- Background section -->
-    <h1>━━ background ━━</h1> <!-- Subheading -->
+    <!-- background -->
+    <h1>━━ background ━━</h1> <!-- subheading -->
     <p>
-      <!-- Paragraph with background information -->
-      Hej, mitt namn är Johan Åberg och jag är en 24-årig blivande webbutvecklare med en passion som brinner starkt för
-      att skapa och utveckla webblösningar. Jag är född och uppvuxen i Uppsala, där jag fortfarande är bosatt och söker nu efter
+      <!-- background information -->
+      Hej, mitt namn är Johan Åberg och jag är en 24-årig blivande webbutvecklare med en passion som brinner starkt för IT. Jag är född och uppvuxen i Uppsala, där jag fortfarande är bosatt och söker nu efter
       möjligheter att lära mig så att jag kan bidra till spännande projekt inom webbutveckling.
     </p>
     <div class="timeline">
-      <!-- Timeline section -->
+      <!-- timeline -->
       <div class="container left">
-        <!-- Timeline container for left-aligned content -->
+        <!-- timeline for left-aligned content -->
         <div class="content">
-          <h2>2018-2019</h2> <!-- Year range -->
+          <h2>2018-2019</h2>
           <p>Servicetekniker <br>
             Data Professional
           </p>
         </div>
       </div>
       <div class="container right">
-        <!-- Timeline container for right-aligned content -->
+        <!-- timeline  for right-aligned content -->
         <div class="content">
-          <h2>2023</h2> <!-- Year -->
+          <h2>2023</h2>
           <p>Praktik <br>
             Högfeldt AB
           </p>
         </div>
       </div>
       <div class="container left">
-        <!-- Timeline container for left-aligned content -->
+        <!-- timeline for left-aligned content -->
         <div class="content">
           <h2>2023-2025 <br>
-            Webbutvecklare .NET </BR>
+            Webbutvecklare .NET <br>
             Campus Värnamo
           </h2>
         </div>
@@ -88,30 +65,28 @@ img:hover {
   </div>
 
   <div id="work">
-    <!-- Work section -->
-    <h1>━━ work ━━</h1> <!-- Subheading -->
+    <!-- work -->
+    <h1>━━ work ━━</h1> <!-- subheading -->
     <p id="projects">
       <div class="projects">
         <p>Nedan är två enkla projekt av mig.</p>
 
-        <a id="project1" href="./ridskola/projekt1.html">Fryele Stallklubb</a> <!-- Links to work projects (empty for now) -->
+        <a id="project1" href="./ridskola/projekt1.html">Fryele Stallklubb</a>
         <a target="_blank" href="/images/thumbnail1.jpg">
-          <img id="thumbnail1" src="/images/thumbnail1.jpg" alt="Forest">
+          <img id="thumbnail1" src="/images/thumbnail1.jpg" alt="frontpage">
         </a>
         <a id="project2" href="flag/flagofsweden.html">Projekt2</a>
         <a target="_blank" href="/images/thumbnail2.png">
           <img id="thumbnail2" src="/images/thumbnail2.png" alt="flag of sweden">
         </a>
     </div>
-    
-    </p>
   </div>
 
   <div id="contact">
-    <!-- Contact section -->
-    <h1>━━ contact me ━━</h1> <!-- Subheading -->
+    <!-- contact -->
+    <h1>━━ contact me ━━</h1> <!-- subheading -->
     <p>
-      <!-- Contact information -->
+      <!-- information -->
       johan-aberg@live.com <br>
       0705662994
     </p>
@@ -120,8 +95,9 @@ img:hover {
           <i class="fab fa-github fa-lg" style="color: black;"></i>
         </a>
         </p>
-        <p><a id="linkedin" href="https://www.linkedin.com/in/johan-%C3%A5berg-a13780209/">
-          <i class="fab fa-linkedin" <i class="fa-brands fa-linkedin" style="color: #000000;"></i></i>
+        <p id="icons">
+          <a id="linkedin" href="https://www.linkedin.com/in/johan-%C3%A5berg-a13780209/">
+          <i class="fab fa-linkedin" style="color: #000000;"></i>
         </a>
       </p>
         
