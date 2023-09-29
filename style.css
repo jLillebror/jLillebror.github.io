@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #ebe76c;
+  margin-bottom: 2rem;
+}
+h1,
+h2,
+h3,
+p,
+li,
+.mainHeading,
+.mainParagraph {
+  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #0c356a;
+}
+body {
+  background-color: #f0b86e;
+  margin: 0;
+  padding: 0;
+  background-image: url(dog.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 50vh; 
+  margin: 0 auto; 
+}
+
+.login,
+.centerContainer,
+.information {
+  flex: 1; 
+  padding: 1.25rem; 
+}
+.login {
+  background-color: #f0b86e;
+  border: 0;
+  border-radius: 2rem;
+  height: 20rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.centerContainer {
+  flex: 1; 
+  width: 6.25rem; 
+  background-color: transparent; 
+  border: none; 
+}
+.information {
+  flex: 1;
+  background-color: #f0b86e;
+  padding: 3rem;
+  border: 0;
+  border-radius: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-bottom: 5rem;
+}
+
+label {
+  color: #8f7272;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 60px;
+  font-weight: bold;
+}
+input {
+  width: 60%;
+  height: 20px;
+  background: #97fff4;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: hidden;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #0c356a;
+  background: #ed7b7b;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.text-container {
+  color: #0c356a;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  border: 0;
+  border-radius: 2rem;
+}
